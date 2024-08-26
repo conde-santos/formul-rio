@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://i.ytimg.com/vi/v4BLfLNuhdw/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgXig4MA8=&rs=AOn4CLCQLUQYNbHuo-HHBMEMjAP0irGrrA');
+    text-align: center;
+}
+
+h1 {
+    font-style: oblique;
+}
+
+p {
+    font-style: italic;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit {
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: violet;
+}

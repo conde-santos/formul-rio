@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body bgcolor="pink">
+<div class="container">
+    <h1>Inscrição para a Escola de formação de Bananas de Pijamas</h1>
+    <form>
+        <div class="form-group">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="nome" class="input-texto">
+        </div>
+        <div class="form-group">
+            <label for="idade">Sua idade:</label>
+            <input type="date" id="idade" name="idade" placeholder="idade" class="input-texto">
+        </div>
+        <div class="form-group">
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero" class="input-texto">
+                <option value="masculino">Normal</option>
+                <option value="feminino">Femica</option>
+                <option disabled value="outro">Não existe outro</option>
+                <option disabled selected value="outro">Escolha:</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="numero">Seu numero para contato:</label>
+            <input type="text" id="numero" name="numero" placeholder="()" class="input-texto">
+        </div>
+        <div class="form-group">
+            <label>Interesses:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="interesse" value="esportes"> Esportes</label>
+                <label><input type="radio" name="interesse" value="musica"> Música</label>
+                <label><input type="radio" name="interesse" value="tecnologia"> Tecnologia</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="button" class="btn-submit" id="Penisu" onclick="Enviar()">Enviar</button>
+        </div>
+    </form>
+</div>
+</body>

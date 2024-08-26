@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.input-texto {
+    border: 1px solid rosybrown;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    outline: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    color: violet;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+input:focus, select:focus {
+    border-color: violet;
+}
+
+.radio-group, .radio-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-submit {
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: violet;
+}
